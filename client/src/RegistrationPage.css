@@ -1,0 +1,44 @@
+.registration-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(49, 181, 203);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 181, 203, 1) 0%,
+    rgba(29, 124, 253, 1) 50%,
+    rgba(109, 69, 252, 1) 100%
+  );
+}
+
+.registration-card {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.registration-image {
+  max-width: 500px;
+  text-align: center;
+}
+
+.registration-image img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.registration-content {
+  padding: 20px;
+}
+
+.registration-links {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.ant-form-item-label {
+  text-align: left;
+}
